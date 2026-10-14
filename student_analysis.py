@@ -21,7 +21,7 @@ df = pd.DataFrame(data)
 print(df)
 print("\nAverage marks:", df["Marks"].mean())
 print("Highest marks:", df["Marks"].max())
-
+print("lowest marks:",df["Marks"].min())
 plt.scatter(df["Study_Hours"], df["Marks"])
 plt.xlabel("Study Hours")
 plt.ylabel("Marks")
